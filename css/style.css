@@ -1,0 +1,88 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ol li,
+ul li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+/* ------------------------------------------- */
+
+/* Стили CSS  */
+.body * {
+	margin: 20px;
+}
+
+.body__title {
+	color: darkred;
+}
+
+.bodu__content > .content__text{
+	color: midnightblue;
+}
+
+.content {
+}
+
+.content__text {
+}
+
+.content__text .lorem {
+	margin: 0;
+	color: tomato;
+}
+
+.content__img + .content__text {
+	color: darkgreen;
+}
+
+.content__img + .content__text > span {
+	color: purple;
+}
+
+.body__description {
+}
+
+.description {
+}
+
+.description__title {
+	color: indigo;
+}
+
+.description__item {
+}
+
+.description__item > .description__link {
+	color: teal;
+}
+
+/* ------------------------------------------- */
